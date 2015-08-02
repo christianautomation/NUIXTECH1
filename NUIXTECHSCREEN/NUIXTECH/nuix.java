@@ -44,7 +44,7 @@ public class nuix {
     Thread.sleep(3000);
     //Take a screen capture
     File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    FileUtils.copyFile(scrFile, new File("/Users/TORO/Desktop/nuixtechscreen.png"),true);
+    FileUtils.copyFile(scrFile, new File("/Users/Christian/Desktop/nuixtechscreen.png"),true);
       	
     }
     
