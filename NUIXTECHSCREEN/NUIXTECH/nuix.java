@@ -29,10 +29,10 @@ public class nuix {
 
   @Test 
   public void testNuix() throws Exception {
-	//Navigate to Google
-	driver.get(baseUrl);
+    //Navigate to Google
+    driver.get(baseUrl);
     //Search for 'slickdeals'
-	driver.findElement(By.id("lst-ib")).clear();
+    driver.findElement(By.id("lst-ib")).clear();
     driver.findElement(By.id("lst-ib")).sendKeys("slickdeals");
     Thread.sleep(2000);
     //Click on link to slickdeal.com
